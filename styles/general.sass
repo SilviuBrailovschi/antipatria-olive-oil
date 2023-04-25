@@ -1,0 +1,118 @@
+
+header
+  padding: 20px
+  background: linear-gradient(305deg, #dbfff3, transparent)
+  .topNav
+    display: flex
+    justify-content: space-between
+    align-items: center
+    ul
+      display: flex
+      list-style-type: none
+      gap: 1rem
+      li
+        font-weight: 600
+        font-size: 16px
+
+footer
+  background-color: #333
+  color: white
+  padding: 0.2rem
+  // margin-top: 2rem
+  text-align: center
+  font-weight: 500
+
+main
+  width: 100%
+  max-width: 1450px
+  margin: auto
+  padding: 3rem 2rem
+  min-height: 100vh
+
+.home-body
+  display: flex
+  flex-direction: column
+  gap: 50px
+  .card
+    display: flex
+    flex-direction: row
+    gap: 22px
+    justify-content: center
+    align-items: center
+    &:nth-child(even)
+      direction: rtl
+    .content
+      width: 60%
+    .image
+      width: 40%
+
+.events-page
+  padding: 2rem 0
+  display: flex
+  flex-direction: row
+  justify-content: center
+  flex-wrap: wrap
+  width: 100%
+  gap: 2rem
+
+  .card
+    display: flex
+    justify-content: center
+    position: relative
+    &:hover
+      -webkit-transition: opacity 0.3s ease-in-out
+      -moz-transition: opacity 0.3s ease-in-out
+      -ms-transition: opacity 0.3s ease-in-out
+      -o-transition: opacity 0.3s ease-in-out
+      transition: opacity 0.3s ease-in-out
+      opacity: 0.7
+    h2
+      position: absolute
+      text-align: center
+      color: white
+      top: 50%
+      font-size: 35px
+
+.cat_events
+  width: 100%
+  .content
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    margin-right: 0
+    width: 100%
+    justify-content: flex-start
+    .card
+      display: flex
+      flex-direction: column
+      width: 30%
+
+.event_single_page
+  .email_registration
+    label
+      font-weight: 500
+      color: black
+    input
+      height: 40px
+      min-width: 200px
+      box-shadow: none
+      border-radius: 5px
+      padding: 0.3rem
+      border: 1px solid #ccc
+      margin-top: .5rem
+    button
+      padding: 0.3rem
+      height: 40px
+      min-width: 70px
+      margin-left: .5rem
+      border: 1px solid #ccc
+      border-radius: 5px
+      cursor: pointer
+      background: #1bb17d
+      color: white
+      font-size: 15px
+      font-weight: 600
+      &:hover
+        border: 1px solid #1bb17d
+        background: transparent
+        color: #1bb17d
